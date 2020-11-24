@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HotelPlazaApi.Infra.Data\HotelPlazaApi.Infra.Data.csproj" />
+  </ItemGroup>
+
 
 </Project>
