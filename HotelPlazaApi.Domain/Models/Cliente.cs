@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace HotelPlazaApi.Domain.Entities
+namespace HotelPlazaApi.Domain.Models
 {
     public class Cliente
     {

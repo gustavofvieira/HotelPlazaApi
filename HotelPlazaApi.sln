@@ -17,13 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{78F74D38-20BA-4895-A8B3-2A9DD8A503C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPlazaApi.Web", "HotelPlazaApi.Web\HotelPlazaApi.Web.csproj", "{C4A99D90-9687-44DC-B609-A5DD994E77F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPlazaApi.Web", "HotelPlazaApi.Web\HotelPlazaApi.Web.csproj", "{C4A99D90-9687-44DC-B609-A5DD994E77F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPlazaApi.Domain", "HotelPlazaApi.Domain\HotelPlazaApi.Domain.csproj", "{AB0929B5-90A3-463C-B252-1D7F8EED4574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPlazaApi.Domain", "HotelPlazaApi.Domain\HotelPlazaApi.Domain.csproj", "{AB0929B5-90A3-463C-B252-1D7F8EED4574}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPlazaApi.Infra.Data", "HotelPlazaApi.Infra.Data\HotelPlazaApi.Infra.Data.csproj", "{D5339F95-EDA7-4DB7-8FCE-D87E4DAEA273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPlazaApi.Infra.Data", "HotelPlazaApi.Infra.Data\HotelPlazaApi.Infra.Data.csproj", "{D5339F95-EDA7-4DB7-8FCE-D87E4DAEA273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPlazaApi.Application", "HotelPlazaApi.Application\HotelPlazaApi.Application.csproj", "{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPlazaApi.Application", "HotelPlazaApi.Application\HotelPlazaApi.Application.csproj", "{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelPlazaApi.Infra.CrossCutting.IoC", "HotelPlazaApi.Infra.CrossCutting.IoC\HotelPlazaApi.Infra.CrossCutting.IoC.csproj", "{E45CF1D8-185E-4309-95F2-3D258F315C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelPlazaApi.Services", "HotelPlazaApi.Services\HotelPlazaApi.Services.csproj", "{8702210D-DEE5-4384-94D4-6497E7F7B2ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45CF1D8-185E-4309-95F2-3D258F315C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45CF1D8-185E-4309-95F2-3D258F315C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45CF1D8-185E-4309-95F2-3D258F315C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45CF1D8-185E-4309-95F2-3D258F315C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8702210D-DEE5-4384-94D4-6497E7F7B2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8702210D-DEE5-4384-94D4-6497E7F7B2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8702210D-DEE5-4384-94D4-6497E7F7B2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8702210D-DEE5-4384-94D4-6497E7F7B2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +70,8 @@ Global
 		{AB0929B5-90A3-463C-B252-1D7F8EED4574} = {397CA580-6CFB-4516-A47F-9ED1EE8158F6}
 		{D5339F95-EDA7-4DB7-8FCE-D87E4DAEA273} = {0E8037E4-6686-46A6-81FB-70278799EC74}
 		{278B1F66-07B5-4F9C-BBF2-C8C54FD3CA2E} = {B50B204F-57D0-4A8F-8287-CAA7E396904F}
+		{E45CF1D8-185E-4309-95F2-3D258F315C3F} = {78F74D38-20BA-4895-A8B3-2A9DD8A503C8}
+		{8702210D-DEE5-4384-94D4-6497E7F7B2ED} = {17B0299F-ECE7-4CBB-A69B-2560A94F5CF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {487AED0F-0303-4047-B4F4-44E822696A36}
