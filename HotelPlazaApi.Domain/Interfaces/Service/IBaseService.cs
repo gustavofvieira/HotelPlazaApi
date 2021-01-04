@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace HotelPlazaApi.Domain.Interfaces.Services
+namespace HotelPlazaApi.Domain.Interfaces.Service
 {
     public interface IBaseService <TEntity> : IDisposable where TEntity : class
     {

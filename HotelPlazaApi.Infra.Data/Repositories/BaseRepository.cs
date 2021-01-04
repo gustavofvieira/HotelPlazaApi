@@ -1,5 +1,4 @@
-﻿
-using HotelPlazaApi.Domain.Interfaces.Repository;
+﻿using HotelPlazaApi.Domain.Interfaces.Repository;
 using HotelPlazaApi.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;

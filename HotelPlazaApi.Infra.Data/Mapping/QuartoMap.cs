@@ -1,6 +1,4 @@
-﻿
-
-using HotelPlazaApi.Domain.Models;
+﻿using HotelPlazaApi.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
